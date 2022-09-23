@@ -1,0 +1,280 @@
+1二氧化硅   多因素方差分析
+
+JB检验： Jarque_beraResult(statistic=2.0397697366709844, pvalue=0.3606364584587425)
+JB检验： Jarque_beraResult(statistic=0.8994951689999792, pvalue=0.6377891191649823)
+JB检验： Jarque_beraResult(statistic=0.6341647559210777, pvalue=0.7282707591947019)
+JB检验： Jarque_beraResult(statistic=1.04087699827404, pvalue=0.5942599083722644)
+基于中位数的levene test P值： 0.06121469347668605
+            df        sum_sq       mean_sq           F        PR(>F)
+风化         1.0   7632.796307   7632.796307   71.257991  6.046275e-12
+类型         1.0  15288.740240  15288.740240  142.732082  7.713439e-18
+风化:类型      1.0   9355.285185   9355.285185   87.338742  1.641630e-13
+Residual  63.0   6748.242032    107.114953         NaN           NaN
+
+2氧化钠  
+
+JB检验： Jarque_beraResult(statistic=3.4037001542328094, pvalue=0.18234585789586866)
+JB检验： Jarque_beraResult(statistic=5.649386563567931, pvalue=0.05932685066490462)
+JB检验： Jarque_beraResult(statistic=nan, pvalue=nan)
+JB检验： Jarque_beraResult(statistic=57.63135860464201, pvalue=3.0586644328423063e-13)
+基于中位数的levene test P值： 0.007890751894136143
+
+
+
+分为有无风化  组间比较  非参数检验
+
+JB检验： Jarque_beraResult(statistic=120.44734927587254, pvalue=0.0)
+JB检验： Jarque_beraResult(statistic=15.989187234188844, pvalue=0.00033728117878117914)
+RanksumsResult(statistic=-2.008385781013735, pvalue=0.04460231269122594)
+无风化内部  做t检验
+
+
+0.695 1.682608695652174 -0.987608695652174
+
+
+
+JB检验： Jarque_beraResult(statistic=3.4037001542328094, pvalue=0.18234585789586866)
+JB检验： Jarque_beraResult(statistic=5.649386563567931, pvalue=0.05932685066490462)
+
+Ttest_indResult(statistic=-1.3371470764486428, pvalue=0.1903193147208084)
+
+3氧化钾
+
+JB检验： Jarque_beraResult(statistic=2.4640964054542382, pvalue=0.29169451591108975)
+JB检验： Jarque_beraResult(statistic=85.37059458267844, pvalue=0.0)
+JB检验： Jarque_beraResult(statistic=0.726274773989783, pvalue=0.6954908755336704)
+JB检验： Jarque_beraResult(statistic=65.22085712260308, pvalue=6.8833827526759706e-15)
+基于中位数的levene test P值： 3.5652497605746087e-08
+
+
+高钾铅钡组间比较  非参数检验
+JB检验： Jarque_beraResult(statistic=1.9009583459173762, pvalue=0.3865557520061258)
+JB检验： Jarque_beraResult(statistic=196.38606346496164, pvalue=0.0)
+RanksumsResult(statistic=4.561751180142536, pvalue=5.072874210355053e-06)
+高钾内部做t检验
+
+9.330833333333333 0.5433333333333333 8.7875
+
+JB检验： Jarque_beraResult(statistic=2.4640964054542382, pvalue=0.29169451591108975)
+JB检验： Jarque_beraResult(statistic=0.726274773989783, pvalue=0.6954908755336704)
+
+Ttest_indResult(statistic=5.391011957145428, pvalue=6.001425294881757e-05)
+
+4氧化钙
+
+
+JB检验： Jarque_beraResult(statistic=1.470662819185707, pvalue=0.4793465725956536)
+JB检验： Jarque_beraResult(statistic=6.369100743311282, pvalue=0.041396854816379225)
+JB检验： Jarque_beraResult(statistic=0.20257330183260813, pvalue=0.9036739567876844)
+JB检验： Jarque_beraResult(statistic=0.9532668042819726, pvalue=0.620870097226299)
+基于中位数的levene test P值： 0.0038497016196198277
+
+
+
+高钾铅钡之间比较 t检验
+3.844999999999999 2.05 1.794999999999999
+JB检验： Jarque_beraResult(statistic=2.106139355426931, pvalue=0.34886520003382027)
+JB检验： Jarque_beraResult(statistic=4.551393935177844, pvalue=0.10272528728357555)
+
+Ttest_indResult(statistic=2.9617511174277573, pvalue=0.004268130152452163)
+
+高钾内部比较 t检验
+5.3325 0.87 4.4624999999999995
+JB检验： Jarque_beraResult(statistic=1.470662819185707, pvalue=0.4793465725956536)
+JB检验： Jarque_beraResult(statistic=0.20257330183260813, pvalue=0.9036739567876844)
+
+Ttest_indResult(statistic=3.4611743424976003, pvalue=0.0032167746671742485)
+
+铅钡内部比较 t检验
+1.320434782608696 2.6953846153846155 -1.3749498327759195
+JB检验： Jarque_beraResult(statistic=6.369100743311282, pvalue=0.041396854816379225)
+JB检验： Jarque_beraResult(statistic=0.9532668042819726, pvalue=0.620870097226299)
+
+Ttest_indResult(statistic=-3.21083927892993, pvalue=0.0023886497954008334)
+
+
+5氧化镁  多因素方差分析
+
+
+
+JB检验： Jarque_beraResult(statistic=0.8902252468757041, pvalue=0.6407521082632605)
+JB检验： Jarque_beraResult(statistic=1.4905469716431088, pvalue=0.4746044845920109)
+JB检验： Jarque_beraResult(statistic=1.042254929384845, pvalue=0.5938506247717805)
+JB检验： Jarque_beraResult(statistic=4.766233848039107, pvalue=0.09226255349994039)
+基于中位数的levene test P值： 0.12123897018025173
+
+JB检验： Jarque_beraResult(statistic=0.8902252468757041, pvalue=0.6407521082632605)
+JB检验： Jarque_beraResult(statistic=1.4905469716431088, pvalue=0.4746044845920109)
+JB检验： Jarque_beraResult(statistic=1.042254929384845, pvalue=0.5938506247717805)
+JB检验： Jarque_beraResult(statistic=4.766233848039107, pvalue=0.09226255349994039)
+基于中位数的levene test P值： 0.12123897018025173
+            df     sum_sq   mean_sq         F    PR(>F)
+风化         1.0   0.852729  0.852729  2.188183  0.144056
+类型         1.0   0.122390  0.122390  0.314065  0.577184
+风化:类型      1.0   2.397363  2.397363  6.151863  0.015812
+Residual  63.0  24.550921  0.389697       NaN       NaN
+
+
+6氧化铝
+
+JB检验： Jarque_beraResult(statistic=0.6497437291953498, pvalue=0.7226199409069485)
+JB检验： Jarque_beraResult(statistic=22.51544877566117, pvalue=1.2907211292989551e-05)
+JB检验： Jarque_beraResult(statistic=0.48163427317689417, pvalue=0.7859853412087778)
+JB检验： Jarque_beraResult(statistic=108.59793863709139, pvalue=0.0)
+基于中位数的levene test P值： 0.5395697399247092
+
+
+高钾铅钡组间  非参数检验
+JB检验： Jarque_beraResult(statistic=1.0283113440252065, pvalue=0.5980052941287379)
+JB检验： Jarque_beraResult(statistic=85.77977047791045, pvalue=0.0)
+
+RanksumsResult(statistic=1.9590776386038484, pvalue=0.05010369513048345)
+高钾内部 t检验
+6.62 1.93 4.69
+JB检验： Jarque_beraResult(statistic=0.6497437291953498, pvalue=0.7226199409069485)
+JB检验： Jarque_beraResult(statistic=0.48163427317689417, pvalue=0.7859853412087778)
+
+Ttest_indResult(statistic=4.393340217528119, pvalue=0.00045346943518860766)
+
+7氧化铁
+
+
+JB检验： Jarque_beraResult(statistic=2.761567602477805, pvalue=0.2513814427359361)
+JB检验： Jarque_beraResult(statistic=26.36756474400605, pvalue=1.8808582450402511e-06)
+JB检验： Jarque_beraResult(statistic=0.4991628263542361, pvalue=0.7791268470551314)
+JB检验： Jarque_beraResult(statistic=8.703190443245342, pvalue=0.012886239767432528)
+基于中位数的levene test P值： 0.0943962694620361
+
+
+高钾内部  t检验
+1.9316666666666666 0.26499999999999996 1.6666666666666667
+JB检验： Jarque_beraResult(statistic=2.761567602477805, pvalue=0.2513814427359361)
+JB检验： Jarque_beraResult(statistic=0.4991628263542361, pvalue=0.7791268470551314)
+
+Ttest_indResult(statistic=2.4110982459968087, pvalue=0.028287142187751507)
+
+高钾铅钡之间 非参数检验
+
+JB检验： Jarque_beraResult(statistic=10.263733198759653, pvalue=0.0059055269263808)
+JB检验： Jarque_beraResult(statistic=77.2935463821508, pvalue=0.0)
+RanksumsResult(statistic=2.2914843137460177, pvalue=0.021935418090712904)
+
+
+8氧化铜
+
+JB检验： Jarque_beraResult(statistic=0.6510141011752532, pvalue=0.7221610885881343)
+JB检验： Jarque_beraResult(statistic=46.356847323727166, pvalue=8.584966071367717e-11)
+JB检验： Jarque_beraResult(statistic=0.7934184340654216, pvalue=0.672529557342908)
+JB检验： Jarque_beraResult(statistic=27.860381255642007, pvalue=8.916513644097179e-07)
+基于中位数的levene test P值： 0.5645388022269016
+
+
+高钾铅钡之间非参数
+JB检验： Jarque_beraResult(statistic=1.1322560219142952, pvalue=0.5677193917416731)
+JB检验： Jarque_beraResult(statistic=83.56131392073183, pvalue=0.0)
+RanksumsResult(statistic=1.8459179194065143, pvalue=0.06490412436321892)
+高钾内部t
+2.4525 1.5616666666666668 0.8908333333333334
+
+JB检验： Jarque_beraResult(statistic=0.6510141011752532, pvalue=0.7221610885881343)
+JB检验： Jarque_beraResult(statistic=0.7934184340654216, pvalue=0.672529557342908)
+Ttest_indResult(statistic=1.2101590880077977, pvalue=0.24379346203856153)
+
+9氧化铅
+
+
+JB检验： Jarque_beraResult(statistic=2.878405475064236, pvalue=0.2371167276106262)
+JB检验： Jarque_beraResult(statistic=1.6438493595078298, pvalue=0.43958477986026046)
+JB检验： Jarque_beraResult(statistic=nan, pvalue=nan)
+JB检验： Jarque_beraResult(statistic=0.005182621834532341, pvalue=0.9974120436306843)
+基于中位数的levene test P值： 0.00012995280457941356
+
+
+铅钡内部  t检验
+22.08478260869565 43.31384615384616 -21.229063545150506
+JB检验： Jarque_beraResult(statistic=1.6438493595078298, pvalue=0.43958477986026046)
+JB检验： Jarque_beraResult(statistic=0.005182621834532341, pvalue=0.9974120436306843)
+
+Ttest_indResult(statistic=-7.03431799149998, pvalue=7.250569020024727e-09)
+
+高钾铅钡  非参数
+JB检验： Jarque_beraResult(statistic=11.948551787493656, pvalue=0.002543343070775861)
+JB检验： Jarque_beraResult(statistic=2.113251735380083, pvalue=0.3476267724533043)
+RanksumsResult(statistic=-6.237929520753048, pvalue=4.4340033230981036e-10)
+10氧化钡
+
+JB检验： Jarque_beraResult(statistic=3.428200621726566, pvalue=0.18012570497445468)
+JB检验： Jarque_beraResult(statistic=17.982872711438326, pvalue=0.0001244711798856768)
+JB检验： Jarque_beraResult(statistic=nan, pvalue=nan)
+JB检验： Jarque_beraResult(statistic=6.505493842066964, pvalue=0.03866784429766801)
+基于中位数的levene test P值： 0.006229589431381527
+
+
+
+高钾铅钡之间 非参数
+
+JB检验： Jarque_beraResult(statistic=15.81965515674615, pvalue=0.00036711787419951847)
+JB检验： Jarque_beraResult(statistic=27.379554556571136, pvalue=1.133979672496288e-06)
+
+RanksumsResult(statistic=-5.757000714164378, pvalue=8.562154874608254e-09)
+铅钡内部 非参数
+
+JB检验： Jarque_beraResult(statistic=17.982872711438326, pvalue=0.0001244711798856768)
+JB检验： Jarque_beraResult(statistic=6.505493842066964, pvalue=0.03866784429766801)
+
+RanksumsResult(statistic=-0.6410693407624107, pvalue=0.5214776326966927)
+11五氧化二磷
+
+JB检验： Jarque_beraResult(statistic=4.522601146947317, pvalue=0.10421485749805348)
+JB检验： Jarque_beraResult(statistic=22.73893135541174, pvalue=1.1542603939096452e-05)
+JB检验： Jarque_beraResult(statistic=0.21790424508323242, pvalue=0.8967733516992628)
+JB检验： Jarque_beraResult(statistic=1.4847946853311982, pvalue=0.47597147992695654)
+基于中位数的levene test P值： 6.791578948850214e-07
+
+
+高钾铅钡之间  非参数
+
+JB检验： Jarque_beraResult(statistic=17.31666232007536, pvalue=0.0001736738991380271)
+JB检验： Jarque_beraResult(statistic=9.23578180889737, pvalue=0.009873598478960077)
+RanksumsResult(statistic=-1.2730468409700098, pvalue=0.2030014207640477)
+
+高钾内部 t检验
+1.4024999999999999 0.27999999999999997 1.1224999999999998
+JB检验： Jarque_beraResult(statistic=4.522601146947317, pvalue=0.10421485749805348)
+JB检验： Jarque_beraResult(statistic=0.21790424508323242, pvalue=0.8967733516992628)
+
+Ttest_indResult(statistic=1.8790466262302261, pvalue=0.07857992223164711)
+
+铅钡内部  非参数
+JB检验： Jarque_beraResult(statistic=22.73893135541174, pvalue=1.1542603939096452e-05)
+JB检验： Jarque_beraResult(statistic=1.4847946853311982, pvalue=0.47597147992695654)
+
+RanksumsResult(statistic=-3.8363993361250515, pvalue=0.00012485133661692245)
+12氧化锶
+
+JB检验： Jarque_beraResult(statistic=1.4395725630577807, pvalue=0.48685629502506345)
+JB检验： Jarque_beraResult(statistic=6.704867777047072, pvalue=0.03499906652636997)
+JB检验： Jarque_beraResult(statistic=nan, pvalue=nan)
+JB检验： Jarque_beraResult(statistic=1.3229346639872248, pvalue=0.5160934981274025)
+基于中位数的levene test P值： 0.003017577407416146
+
+
+高钾铅钡之间  t检验
+0.027777777777777776 0.3479591836734694 -0.3201814058956916
+
+JB检验： Jarque_beraResult(statistic=3.903793180105282, pvalue=0.14200449171964857)
+JB检验： Jarque_beraResult(statistic=4.90176628623286, pvalue=0.08621741055454324)
+Ttest_indResult(statistic=-5.105337128353712, pvalue=3.1002037889146014e-06)
+
+铅钡内部 非参数
+
+JB检验： Jarque_beraResult(statistic=6.704867777047072, pvalue=0.03499906652636997)
+JB检验： Jarque_beraResult(statistic=1.3229346639872248, pvalue=0.5160934981274025)
+
+RanksumsResult(statistic=-2.1535923166237234, pvalue=0.031272157349806096)
+13氧化锡
+看图说话
+
+14二氧化硫
+看图说话
+

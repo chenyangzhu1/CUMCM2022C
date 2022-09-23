@@ -1,0 +1,56 @@
+二氧化硅
+            df      sum_sq     mean_sq          F        PR(>F)
+种类         1.0  969.530328  969.530328  79.084197  1.369100e-07
+Residual  16.0  196.151518   12.259470        NaN           NaN
+氧化钠
+            df     sum_sq   mean_sq         F    PR(>F)
+种类         1.0   0.010617  0.010617  0.008037  0.929679
+Residual  16.0  21.137476  1.321092       NaN       NaN
+氧化钾
+            df      sum_sq    mean_sq          F    PR(>F)
+种类         1.0   89.302826  89.302826  13.567066  0.002012
+Residual  16.0  105.317186   6.582324        NaN       NaN
+氧化钙
+            df     sum_sq    mean_sq         F    PR(>F)
+种类         1.0  25.590261  25.590261  5.015565  0.039675
+Residual  16.0  81.634703   5.102169       NaN       NaN
+氧化镁
+            df    sum_sq  mean_sq         F    PR(>F)
+种类         1.0  0.036670  0.03667  0.115095  0.738828
+Residual  16.0  5.097759  0.31861       NaN       NaN
+氧化铝
+            df     sum_sq    mean_sq          F    PR(>F)
+种类         1.0  66.945551  66.945551  20.027057  0.000383
+Residual  16.0  53.484086   3.342755        NaN       NaN
+氧化铁
+            df     sum_sq   mean_sq         F    PR(>F)
+种类         1.0   1.907499  1.907499  1.029362  0.325406
+Residual  16.0  29.649414  1.853088       NaN       NaN
+氧化铜
+            df     sum_sq    mean_sq          F    PR(>F)
+种类         1.0  23.873974  23.873974  13.283659  0.002183
+Residual  16.0  28.755901   1.797244        NaN       NaN
+氧化铅
+            df    sum_sq   mean_sq         F    PR(>F)
+种类         1.0  0.330756  0.330756  1.271193  0.276168
+Residual  16.0  4.163089  0.260193       NaN       NaN
+氧化钡
+            df     sum_sq   mean_sq         F    PR(>F)
+种类         1.0   0.563082  0.563082  0.787924  0.387878
+Residual  16.0  11.434247  0.714640       NaN       NaN
+五氧化二磷
+            df     sum_sq   mean_sq         F    PR(>F)
+种类         1.0   1.286401  1.286401  0.928787  0.349519
+Residual  16.0  22.160522  1.385033       NaN       NaN
+氧化锶
+            df    sum_sq   mean_sq         F    PR(>F)
+种类         1.0  0.001556  0.001556  0.991792  0.334129
+Residual  16.0  0.025100  0.001569       NaN       NaN
+氧化锡
+            df    sum_sq   mean_sq          F    PR(>F)
+种类         1.0  4.255623  4.255623  17.324986  0.000734
+Residual  16.0  3.930160  0.245635        NaN       NaN
+二氧化硫
+            df    sum_sq   mean_sq         F    PR(>F)
+种类         1.0  0.082689  0.082689  3.923295  0.065081
+Residual  16.0  0.337222  0.021076       NaN       NaN
